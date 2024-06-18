@@ -1,0 +1,18 @@
+# ninja log v6
+384	1555	7404444860821915	CMakeFiles/2d-game.dir/main.cpp.obj	db4a624d9b71caf3
+8	379	7404444860386779	2d-game_autogen/timestamp	158e8b51b1059e30
+8	379	7404444860386779	2d-game_autogen/mocs_compilation.cpp	158e8b51b1059e30
+8	379	7404444860386779	D:/_qt_proj/2d-game/build/Desktop_Qt_6_6_3_MinGW_64_bit-Debug/2d-game_autogen/timestamp	158e8b51b1059e30
+8	379	7404444860386779	D:/_qt_proj/2d-game/build/Desktop_Qt_6_6_3_MinGW_64_bit-Debug/2d-game_autogen/mocs_compilation.cpp	158e8b51b1059e30
+423	1036	7404444861211916	CMakeFiles/2d-game.dir/bullet.cpp.obj	8a6d1c7c0914f0b7
+379	1734	7404444860771921	CMakeFiles/2d-game.dir/2d-game_autogen/mocs_compilation.cpp.obj	711f86ea3bef573d
+389	1721	7404444860861919	CMakeFiles/2d-game.dir/mainwindow.cpp.obj	6251f2486ac4f5c4
+1735	1884	7404444874329763	2d-game.exe	f7d888a2d9140e0c
+398	1045	7404444860961913	CMakeFiles/2d-game.dir/player.cpp.obj	c4725d953f913158
+415	1107	7404444861131914	CMakeFiles/2d-game.dir/field.cpp.obj	547677477beba8ef
+9	102	7404445285943239	2d-game_autogen/timestamp	158e8b51b1059e30
+9	102	7404445285943239	2d-game_autogen/mocs_compilation.cpp	158e8b51b1059e30
+9	102	7404445285943239	D:/_qt_proj/2d-game/build/Desktop_Qt_6_6_3_MinGW_64_bit-Debug/2d-game_autogen/timestamp	158e8b51b1059e30
+9	102	7404445285943239	D:/_qt_proj/2d-game/build/Desktop_Qt_6_6_3_MinGW_64_bit-Debug/2d-game_autogen/mocs_compilation.cpp	158e8b51b1059e30
+102	1362	7404445286873521	CMakeFiles/2d-game.dir/mainwindow.cpp.obj	6251f2486ac4f5c4
+1362	1507	7404445299473999	2d-game.exe	f7d888a2d9140e0c

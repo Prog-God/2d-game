@@ -2,15 +2,14 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-
-#include <QTimer>
+#include <QKeyEvent>
 #include <QPainter>
-#include <QMouseEvent>
 
-#include <QTime>
 #include <QDebug>
 
-#include "player.h"
+#include <execution>
+
+#include "field.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -29,16 +28,18 @@ public:
 private:
     Ui::MainWindow *ui;
 
-    QTimer *tmr; //Адресная переменная таймера
-    std::vector<QPoint> points;
+    Field baseField;
 
-private slots:
-    void updateTime(); //Слот для обновления времени на экране
+    void drawField(Field&);
+
 
     // QWidget interface
 protected:
     void keyPressEvent(QKeyEvent *event);
     void paintEvent(QPaintEvent *event);
-    void mouseMoveEvent(QMouseEvent *event);
+
+    // QObject interface
+protected:
+    void timerEvent(QTimerEvent *event);
 };
 #endif // MAINWINDOW_H
